@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="eng" dir= "ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name ="viewport" content ="width=device-width, intial-scale = 1.0">
+    <title>CV en ligne - Samy Cheklat</title>
+    
+    <link rel="stylesheet" href="style.css">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous"/>
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg==" crossorigin="anonymous"></script>
+
+    <link rel = "icon" href="file-alt-regular.svg">
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+   
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://kit.fontawesome.com/c8377ed47d.js" crossorigin="anonymous"></script>
+    
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/konpa/devicon@master/devicon.min.css">
+  </head>
+  
+  
+  <body>
+    <input type="checkbox" id="check">
+
+    
+      <label for="check">
+        <i class="fas fa-bars" id="sidebar_btn"></i>
+      </label>
+  
+
+
+    <div class ="mobile_nav fixed-top">
+      <div class ="nav_bar">
+        <img src="profileImage.jpg" class="mobile_profile_image" alt="">
+        <div class = "links_mobile">
+          <a href="https://www.facebook.com/samy.cheklat/?viewas=100000686899395" class = "app fa fa-facebook"></a>
+          <a href= "https://github.com/ikrash3d" class = "app fa fa-github ml-4" ></a>
+          <a href= "https://www.instagram.com/samy_chek/" class = "app fa fa-instagram ml-4"></a>
+          <a href= "https://www.linkedin.com/in/samy-chek" class = "app fa fa-linkedin ml-4"></a>
+        </div>
+        <i class = "fa fa-bars nav_btn"></i>
+   
+      </div>
+ 
+      <div class ="mobile_nav_items">
+        <a class = "lol1" href="#apropos"><i class=" fas fa-book-reader"></i><span>À propos</span></a>
+        <a class = "lol1" href="#projet"><i class=" fas fa-tasks"></i><span>Projets</span></a>
+        <a class = "lol1" href="#education"><i class=" fas fa-university"></i><span>Éducation</span></a>
+        <a class = "lol1" href="#competences"><i class=" fas fa-toolbox"></i><span>Compétences</span></a>
+        <a class = "lol1" href="#interets"><i class=" far fa-heart"></i><span>Intérêts</span></a>
+        <a class = "lol1" href="#rdv"><i class=" far fa-calendar-check"></i><span>Rendez-Vous</span></a>
+      </div>
+    </div>
+    
+    <div class ="sidebar">
+      <div class ="profile_info">
+        <img src ="profileImage.jpg" class="profile_image" alt="">
+        <h4>Samy</h4>
+      </div>
+      <a class ="linkNav" href="#apropos"><i class="sidebar_fas fas fa-book-reader"></i><span>À propos</span></a>
+      <a class ="linkNav" href="#projet"><i class="sidebar_fas fas fa-tasks"></i><span>Projets</span></a>
+      <a class ="linkNav" href="#education"><i class="sidebar_fas fas fa-university"></i><span>Éducation</span></a>
+      <a class ="linkNav" href="#competences"><i class="sidebar_fas fas fa-toolbox"></i><span>Compétences</span></a>
+      <a class ="linkNav" href="#interets"><i class="sidebar_fas far fa-heart"></i><span>Intérêts</span></a>
+      <a class ="linkNav" href="#rdv"><i class="sidebar_fas far fa-calendar-check"></i><span>Rendez-Vous</span></a>
+      <div class = "links pt-4">
+        <a href="https://www.facebook.com/samy.cheklat/?viewas=100000686899395" class ="linkBut"><i class = "sidebarBut fa fa-facebook"></i></a>
+        <a href= "https://github.com/ikrash3d" class = "linkBut" ><i class = "sidebarBut fa fa-github"></i></a>
+        <a href= "https://www.instagram.com/samy_chek/" class = "linkBut"><i class = "sidebarBut fa fa-instagram"></i></a>
+        <a href= "https://www.linkedin.com/in/samy-chek" class = "linkBut"><i class = "sidebarBut fa fa-linkedin"></i></a>
+      </div>
+    </div>
+
+    
+    <body>
+      <div class ="content">
+        <div class = "container fluid">
+        <section class ="justify-content-center" id="apropos">
+          <div class = "m-5 header pt-5">
+            <h2 class = "nom pt-5">Samy <span class = "famille">Cheklat</span></h2>
+            <p class = "adresse pt-3">123 rue Google Street - MTL/QC - XXX-XXX</p>
+            <p class = "courriel pt-3">Tel : (123) 456-7890 - random@gmail.com</p>
+            <p class = "msg-intro pt-5">Bonjour, bienvenue sur mon CV. Ce CV a été construit de A à Z par moi-même sans aucune connaissances. J'ai fait le tout avec l'aide d'Internet durant l'été 2020. 
+              Je suis un étudiant en génie logiciel qui va entamer sa 2e année Baccalauréat à Polytechnique.
+            </p>
+          </div>
+        </section>
+        
+      
+        <section class ="projet p-3 p-lg-5 justify-content-center" id="projet">
+          <div class = "projet1">
+            <h1 class = "header1 mb-4 mt-5 pt-2">Projets</h1>
+            <h2 class = "header2">Projet initial : Système embarqué</h2>
+            <h3 class = "header3">Projet Intégrateur I</h3>
+            <p  style = "margin-top: 10px;"> Au courant de ma première annnée, nous avons travaillé avec un robot physique. 
+              Le but ultime de ce projet était de faire déplacer le robot sur un parcours prédéterminé de façon autonome.
+              Ce projet nous a permis de se familiariser au système d'exploitation Linux. De plus, ce dernier nous a introduit
+              à la programmation d'une carte mère afin d'effectuer certaines tâches comme: faire rouler le robot, jouer sur la couleur
+              d'une petite lumière, actionner un bouton générant des intrerruptions et autres.
+            </p>
+              <div class = "row">
+                <div class ="col-sm-5 left">
+                  <img class = "img-fluid img-thumbnail" src = "robot.jpg">
+                  <p class = "img-txt">Robot final</p>
+                </div>
+                <div class ="col-sm-2 center">
+                  <!--white space-->
+                </div>
+                <div class ="col-sm-5 right">
+                  <img class = "img-fluid img-thumbnail" src = "carteMC1.jpg">
+                  <p class = "img-txt">atmega324p</p>
+                </div>
+              </div>
+              <p class = "txt-outils pt-5"> À travers ce projet nous avons utilisé divers outils tels que : </p>
+    
+              <div class = "row">
+                <div class ="col-sm-4 left">
+                  <img class = "img-fluid img-thumbnail" src = "oscilloscope.jpg">
+                  <p class = "img-txt">Oscilloscope</p>
+                </div>
+                <div class ="col-sm-4 center">
+                  <img class = "img-fluid img-thumbnail" src = "multimetre.jpg">
+                  <p class = "img-txt">Multimètre</p>
+                </div>
+                <div class ="col-sm-4 right">
+                  <img class = "img-fluid img-thumbnail" src = "sourceTension.jpg">
+                  <p class = "img-txt">Source de tension</p>
+                </div>
+              </div>
+              <p class = "pt-3 ">En raison du Covid-19, le projet phyisque fut changé par une simulation. Les principes de programmation sont identiques.</p>
+              <div class ="row">
+                <a href = "simulation.html">
+                    <img class = "mx-auto d-block img-fluid" src = "simulIDe.jpg" style="width: 50%;" href= "simulideanimation.html">
+                
+                </a>
+              </div>
+              <p class = "pt-5" style = "margin-top: 10px;">Afin d'appliquer nos connaissances, le projet consistait à pré-programmer 6 mannoeuvres. Les mannoeuvres étaient déterminées par les combinaisons des sonars. Chaque sonar indiquait une distance. En fonction de la distance, l'écran affichait un message: 'dngr', 'attn', 'ok'. Grâce à un bouton acctionné par l'utilisateur, si la combinaison est programmée, le robot effectuait une mannoeuvre. Dans le cas contraire, il retournait dans un mode de détection.</p>
+              <p class = "cliqueimage pt-2">(Cliquez sur l'image ci-dessus pour voir une animation)</p>
+    
+            </div>
+            <div class = "projet1">
+              <h2 class = "header2" style="margin-top: 30px;">Projet personnel: HTML/CSS</h2>
+              <h3 class = "header3">Curriculum vitae en ligne</h3>
+              <p>
+                Pour élargir mes connaissances en informatique, j'ai décidé de prendre l'initiative de rendre mon curriculum vitae en ligne. 
+                La construction du CV m'a permis d'en apprendre beaucoup sur le langage HTML, CSS et Bootstrap. Avec aucune connaissance en ce qui concerne ceux-ci , mes 2 sources d'information ont été :
+              </p>
+            </div>
+            <div class = "row">
+              <div class = "col-sm-1"><!--whitespace--></div>
+              <div class = "col-md-5">
+                <div class = "embed-responsive embed-responsive-16by9">
+                  <iframe class = "embed-responsive-item" width="750" height="480" src="https://www.youtube.com/embed/TKYsuU86-DQ?list=PL0eyrZgxdwhwNC5ppZo_dYGVjerQY3xYU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+                <p class = "img-txt">mmtuts</p>
+              </div>
+              <div class = "col-md-2"><!--whitespace--></div>
+              <div class ="col-md-3">
+                <img class = "img-fluid img-thumbnail" src = "w3schools.png">
+                <p class = "img-txt">W3Schools</p>
+              </div>
+            </div>
+        </section>
+    
+    
+    
+        <section class = "education justify-content-center p-3 p-lg-5" id="education">
+          <div class = "w-100">
+            <h1 class = "header1 mb-4 mt-5 pt-2">Éducation</h1>
+            <div class = "resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
+              <div class = "poly">
+                <h3 class = "header2">École Polytechnique Montréal</h3>
+                <div class = "header3 mb-2 mt-2">Baccalauréat en Genie Logiciel</div>
+                <p class = "text-edc">Première annèe terminée avec 31 crédits d'accumulés (2019-2020)</p>
+              </div>
+            <div class = "date text-md-right mt-3">Automne 2018 - TBD</div>
+            </div>
+    
+            <div class = "resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
+              <div class = "udem">
+                <h3 class = "header2">Université de Montréal</h3>
+                <div class = "header3 mb-2 mt-2">Baccalauréat en Kinésiologie</div>
+                <p class = "text-edc">Baccalauréat complété en kinésiologie avec 90 crédits d'accumulés</p>
+              </div>
+            <div class = "date text-md-right mt-3">Automne 2014 - Été 2017</div>
+            </div>
+          </div>
+          
+        </section>
+    
+        <section class ="competences p-3 p-lg-5 justify-content-center" id="competences">
+          <h1 class = "header1 mb-4 mt-5 pt-2"> Compétences</h1>
+          <h2 class = "header2"> Langages de programmation</h2>
+          <div class = "text-md-center mt-5">
+          <ul class = "list-inline dev-icons">
+            <li class = "list-inline-item m-3"><i class="devicon-cplusplus-line fa-3x"></i> </li>
+            <li class = "list-inline-item m-3"><i class="fab fa-java fa-4x"></i></li>
+            <li class = "list-inline-item m-3"><i class="fa fa-html5 fa-3x" aria-hidden="true"></i></li>
+            <li class = "list-inline-item m-3"><i class="fa fa-css3 fa-3x" aria-hidden="true"></i></li>
+            <li class = "list-inline-item m-3"><i class="fa fa-git fa-3x" aria-hidden="true"></i></li>
+            <li class = "list-inline-item m-3"><i class="fa fa-windows fa-3x" aria-hidden="true"></i></li>
+            <li class = "list-inline-item m-3"><i class="fa fa-linux fa-3x" aria-hidden="true"></i></li>
+            <li class = "list-inline-item m-2"><i class = "VHDL-logo">VHDL</i></li>
+          </ul>
+        </div>
+    
+        </section>
+       
+        <section class = "interets p-3 p-lg-5 justify-content-center" id = "interets">
+          <h1 class = "header1 mb-4 mt-5 pt-2">Intérêts</h1>
+          <p>
+            Passionné par les sports depuis mon jeune âge, je suis quelqu'un qui aime bouger. Dès que l'occasion
+            se présente, je la saisie. Ce qui m'allume dans la vie c'est d'entreprendre des projets qui sont faits par moi
+            et pour moi. Ce CV en ligne est un bon exemple. De plus, il y a quelques années, j'ai entrepris une chaîne YouTube
+            comme passe temps. Cette envie d'entreprendre des projets vient du fait que j'ai des réels projets de vie
+            que je voudrais entreprendre. Notamment des applicaitons mobiles. Bref, Le fait d'entreprendre de 
+            nouveaux projets me permets de développer certaines compétences qui peuvent m'être utile éventuellement. 
+          </p>
+          <p class ="pt-2">
+            De plus, je suis quelqu'un qui aime bien tout ce qui est l'informatique. Du langage de programmation à 
+            la construction d'un ordinateur (surtout quand ce n'est pas moi qui paye &#128517), ma curiosité est toujours piquée.
+            Enfin, les jeux vidéo ont toujours été quelque chose qui font partis de ma vie. 
+          </p>
+
+
+        </section>
+
+
+
+        <section class ="rdv p-3 p-lg-5 justify-content-center" id="rdv">
+          <h1 class = "header1 mb-4 mt-5 pt-2"  > Rendez-vous</h1>
+          <p class = "text-edc mt-3">Vous pouvez me contacter en laissant vos informations ci-dessous.</p>
+          <p class = "text-edc mt-3">Vos informations me seront transmis directement à mon adresse courriel.</p>
+          
+          <article class = "index-form">
+            <div class = "container">
+              <div class = "row mt-4">
+                <div class = "col-md-6">
+                  <form>
+                    <div class = "form-group">
+                      <label for="name">Nom</label>
+                      <input class ="form-control mt-3" type = "text" name ="name" placeholder="Nom" required>
+                    </div>
+                    <div class = "form-group">
+                      <label for="prenom">Prenom</label>
+                      <input class ="form-control mt-3" type = "text" name ="prenom" placeholder="Prenom" required>
+                    </div>
+                    <div class = "form-group">
+                      <label for="compagnie">Compagnie</label>
+                      <input class ="form-control mt-3" type = "text" name ="compagnie" placeholder="Compagnie">
+                    </div>
+                    <div class = "form-group">
+                      <label for="courriel">Courriel</label>
+                      <input class ="form-control mt-3" type = "text" name ="courriel" placeholder="Courriel" required>
+                    </div>
+                    <div class = "form-group">
+                      <label for="phone">Téléphone</label>
+                      <input class ="form-control mt-3" type = "text" name ="phone" placeholder="Telephone">
+                      <div class = "form-group mt-3">
+                        <label for="commentaires mt-3">Commentaires</label>
+                        <textarea class ="form-control mt-3" placeholder="Commentaires (facultatif)
+    
+     N.B. Je n'ai malheureusement pas reussi a faire le back end afin de lier ce contact form avec mon courriel :(" rows ="5"></textarea>
+                     </div>
+                    </div>
+                      <button class = "btn btn-primary btn-block active" type = "submit">Envoyer</button>
+                     <button class = "btn btn-danger btn-block active" type = "reset">Reset</button>
+                  </form>
+                </div>
+                <div class = "col-sm-4">
+                
+                </div>
+                <div class = "col-sm-4"></div>
+    
+              </div>
+            </div>
+          </article>
+    
+        </section>
+    
+      </div>
+    </div>
+      
+    <script type="text/javascript">
+
+      $(document).ready(function(){
+        $(".nav_btn, .lol1").click(function(){
+          $(".mobile_nav_items").toggleClass('active');
+        });      
+      });
+      
+
+    </script>
+
+
+  </body>
+</html>
+
+
+
+
+
+
+
+
+
